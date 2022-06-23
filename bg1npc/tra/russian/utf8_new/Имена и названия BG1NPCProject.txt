@@ -1,0 +1,112 @@
+BG1NPC_TMP.TRA
+Названия:
+@171 The Ultimate Compendium Of Famous Little-Known Heroes
+@379 Norland -Норланд.
+
+Имена:
+@11 Lord Foreshadow's - Лорд Предзнаменований.
+@17 Tarnesh - Тарнеш (Прож).
+@30 Caravan Bandit - Налетчик на караваны.
+@36 Zizi the Lovebundle - Зизи Ловеласка.
+@81 Jopha - Иофа.
+@82 Dora - Дора.
+@83 David Jansen - Дэвид Янсен.
+@100 Uncle Gerhardt - Дядя Герхард (Сильвер).
+@118 Uncle Spanky's - Дядя Шлепка. (Сильвер).
+@136 David - Дэвид.
+@171 Saemon Schama - Саймон Шама.
+@171 Myr'Cutio - Мир'Кутио.
+@239 Rashel - Рашэль.
+@251 Imanel Silversword - Иманель Сильверсворд.
+@305 Willy - Вилли.
+@340 Zosya - Зося.
+@347 Galteran - Гальтеран
+@385 Arkushule - Аркушуль.
+@386 Brielbara - Бриельбара.
+@391 Twelve Months - Двеннадцать Месяцев.
+@407 Arel - Арэль.
+@533 Elhan - Эльхан.
+@547 Cautz'qu'ati'kan - Кауц'ку'ати'кан.
+@553 Cautz'qu'ati'kan's hubby - Муж Кауц'ку'ати'кан.
+@575 Cythandria - Ситандрия.
+@575 Colin de'Graage - Колин де'Грааж.
+@635 Gael - Гаэль.
+@636 Siene - Сиэне.
+@637 Minuwiel - Минувиэль.
+@638 Diala - Диала.
+@639 White Doe - Белая Лань.
+
+P#BRLT.TRA
+Названия:
+@62 Battleguard - Боевая стража.
+@128 Tunnel Trolls - Туннельный тролль.
+@128 Kraghanargh - Крагханарг.
+@129 Draka - Драка.
+@129 Restless Dead _ Неупокоенный Мертвец.
+@673 Rauthymar - Раутимар(Северный народ).
+
+Имена:
+@688 Lord of Battles - Повелитель битв.
+
+P#CENTEO.TRA
+Названия:
+
+Имена:
+@7 Centeol - Сентеол.
+@52 Hanali Celanil - Ханали Селанил.
+
+P#CORLT.TRA
+Названия:
+@80 Elasias - Элазиас(один из месяцев).
+@139 Lady of Luck - Госпожа Удача. 
+@183 Great Glacier - Великий Ледник.
+@445 Wyrmwood - Лес Вирма.
+@459 Year of the Immoral Imp - Год Безнравственного Беса.
+Имена:
+@487 Errilam - Эррилам.
+@491 Alemander - Эйлмандер.
+@557 Twinkle - Мерцающий.
+@1127 Shade King - Король Теней.
+@1344 Cloakwood Creek - ручей Клоаквуда.
+@1512 Golden Elves - Золотые эльфы.
+
+P#CRNPC.TRA
+Названия:
+
+Имена:
+@124 Matron Baenre - Матрона Бэнр.
+
+P#IMANEL.TRA
+Названия:
+
+Имена:
+@251 Imanel Silversword - Иманель Сильверсворд.
+
+X#ADDIAL_TMP.TRA
+Названия:
+
+Имена:
+@179 Zulkir - Зулкир.
+@569 Great Cycle - Великий Цикл.
+
+X#AJANTISLTS_PR.TRA
+Названия:
+@283 Demon Pits - Ямы Демонов.
+@321 Sword Mountains - Горы Меча.
+@321 Ardeep Forest - Лес Ардип.
+@321 Kryptgarden Forest - Лес Криптгарден.
+@326 Masked Lords - Тайные Лорды.
+@333 Waterdeep's Warlord - Боевой Вождь Вотердипа.
+
+Имена:
+@326 Piergeiron the Paladinson - Пиргейрон Паладинсон.
+@326 Warden of Waterdeep - Страж Вотердипа.
+@326 Commander of the Watch - Командир Дозора.
+@326 Open Lord of Waterdeep - Официальный Лорд Вотердипа.
+@333 Ahghairon - Агайрон. 
+@388 Ulguth - Ульгут.
+@388 Mara - Мара.
+@388 Gotom - Готом.
+@388 Elina - Элина.
+@388 Envin - Энвин.
+@393 Sinna - Синна.
