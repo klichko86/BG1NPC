@@ -10,10 +10,10 @@ xmap gx <Plug>NetrwBrowseXVis
 nmap gx <Plug>NetrwBrowseX
 noremap h ;
 noremap l h
+nmap <expr> <F28> XTermPasteBegin("i")
 xnoremap <silent> <Plug>NetrwBrowseXVis :call netrw#BrowseXVis()
 nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(netrw#GX(),netrw#CheckIfRemote(netrw#GX()))
 vmap <expr> <F28> XTermPasteBegin("c")
-nmap <expr> <F28> XTermPasteBegin("i")
 omap <expr> <F28> XTermPasteBegin("i")
 let &cpo=s:cpo_save
 unlet s:cpo_save
@@ -63,9 +63,9 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 26 + 40) / 81)
-exe '2resize ' . ((&lines * 26 + 40) / 81)
-exe '3resize ' . ((&lines * 25 + 40) / 81)
+exe '1resize ' . ((&lines * 19 + 29) / 58)
+exe '2resize ' . ((&lines * 17 + 29) / 58)
+exe '3resize ' . ((&lines * 18 + 29) / 58)
 argglobal
 setlocal keymap=
 setlocal noarabic
@@ -197,11 +197,11 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 299 - ((3 * winheight(0) + 13) / 26)
+let s:l = 423 - ((16 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 299
+keepjumps 423
 normal! 0
 wincmd w
 argglobal
@@ -337,12 +337,12 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 299 - ((23 * winheight(0) + 13) / 26)
+let s:l = 413 - ((14 * winheight(0) + 8) / 17)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 299
-normal! 030|
+keepjumps 413
+normal! 046|
 wincmd w
 argglobal
 if bufexists("phase1/dlg/x\#addial.d") | buffer phase1/dlg/x\#addial.d | else | edit phase1/dlg/x\#addial.d | endif
@@ -477,16 +477,17 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 785 - ((5 * winheight(0) + 12) / 25)
+let s:l = 1053 - ((10 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 785
-normal! 010|
+keepjumps 1053
+normal! 0
 wincmd w
-exe '1resize ' . ((&lines * 26 + 40) / 81)
-exe '2resize ' . ((&lines * 26 + 40) / 81)
-exe '3resize ' . ((&lines * 25 + 40) / 81)
+3wincmd w
+exe '1resize ' . ((&lines * 19 + 29) / 58)
+exe '2resize ' . ((&lines * 17 + 29) / 58)
+exe '3resize ' . ((&lines * 18 + 29) / 58)
 tabnext 1
 badd +1 tra/russian/X\#ADDIAL_TMP.TRA
 badd +1 tra/english/x\#addial_tmp.tra
