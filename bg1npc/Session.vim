@@ -48,11 +48,11 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 523 - ((3 * winheight(0) + 13) / 26)
+let s:l = 568 - ((18 * winheight(0) + 13) / 26)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 523
+keepjumps 568
 normal! 0
 wincmd w
 argglobal
@@ -68,12 +68,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 540 - ((22 * winheight(0) + 12) / 25)
+let s:l = 571 - ((19 * winheight(0) + 12) / 25)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 540
-normal! 097|
+keepjumps 571
+normal! 043|
 wincmd w
 argglobal
 if bufexists("phase1/dlg/x\#addial.d") | buffer phase1/dlg/x\#addial.d | else | edit phase1/dlg/x\#addial.d | endif
@@ -88,12 +88,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1388 - ((9 * winheight(0) + 11) / 23)
+let s:l = 1310 - ((11 * winheight(0) + 11) / 23)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1388
-normal! 0
+keepjumps 1310
+normal! 093|
 wincmd w
 exe '1resize ' . ((&lines * 26 + 39) / 78)
 exe '2resize ' . ((&lines * 25 + 39) / 78)
