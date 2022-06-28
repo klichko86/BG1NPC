@@ -23,6 +23,7 @@ set fileencodings=ucs-bom,utf-8,default,latin1
 set helplang=en
 set langmap=ёйцукенгшщзхъфывап��олджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfg;jkh\\l'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\"ZXCVBNM<>
 set nomodeline
+set pastetoggle=<F29>
 set printoptions=paper:letter
 set ruler
 set runtimepath=~/.vim,~/.vim/plugged/vim-racer/,~/.vim/plugged/rust.vim/,~/.vim/plugged/vim-bracketed-paste/,~/.vim/plugged/vim-sensible/,/var/lib/vim/addons,/etc/vim,/usr/share/vim/vimfiles,/usr/share/vim/vim82,/usr/share/vim/vimfiles/after,/etc/vim/after,/var/lib/vim/addons/after,~/.vim/plugged/rust.vim/after,~/.vim/after
@@ -199,12 +200,12 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 59 - ((11 * winheight(0) + 9) / 18)
+let s:l = 128 - ((17 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 59
-normal! 059|
+keepjumps 128
+normal! 0
 wincmd w
 argglobal
 if bufexists("tra/english/x\#branw.tra") | buffer tra/english/x\#branw.tra | else | edit tra/english/x\#branw.tra | endif
@@ -339,11 +340,11 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 55 - ((10 * winheight(0) + 9) / 18)
+let s:l = 111 - ((0 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 55
+keepjumps 111
 normal! 0
 wincmd w
 argglobal
@@ -479,13 +480,14 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 104 - ((0 * winheight(0) + 9) / 18)
+let s:l = 211 - ((15 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 104
+keepjumps 211
 normal! 0
 wincmd w
+3wincmd w
 exe '1resize ' . ((&lines * 18 + 29) / 58)
 exe '2resize ' . ((&lines * 18 + 29) / 58)
 exe '3resize ' . ((&lines * 18 + 29) / 58)
