@@ -200,12 +200,12 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 128 - ((17 * winheight(0) + 9) / 18)
+let s:l = 154 - ((13 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 128
-normal! 0
+keepjumps 154
+normal! 027|
 wincmd w
 argglobal
 if bufexists("tra/english/x\#branw.tra") | buffer tra/english/x\#branw.tra | else | edit tra/english/x\#branw.tra | endif
@@ -340,12 +340,12 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 111 - ((0 * winheight(0) + 9) / 18)
+let s:l = 154 - ((14 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 111
-normal! 0
+keepjumps 154
+normal! 05|
 wincmd w
 argglobal
 if bufexists("phase1/dlg/x\#branw.d") | buffer phase1/dlg/x\#branw.d | else | edit phase1/dlg/x\#branw.d | endif
@@ -480,11 +480,11 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 211 - ((15 * winheight(0) + 9) / 18)
+let s:l = 231 - ((0 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 211
+keepjumps 231
 normal! 0
 wincmd w
 3wincmd w
