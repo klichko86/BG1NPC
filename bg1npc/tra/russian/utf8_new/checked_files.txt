@@ -30,3 +30,4 @@ X#KIVAN.TRA
 
 Klichko86 is checking X#A*
 paladin84 is checking X#B*
+p_zombie is checking X#C*
