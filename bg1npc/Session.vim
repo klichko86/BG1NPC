@@ -50,11 +50,11 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 256 - ((10 * winheight(0) + 13) / 26)
+let s:l = 261 - ((13 * winheight(0) + 13) / 26)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 256
+keepjumps 261
 normal! 0
 wincmd w
 argglobal
@@ -90,14 +90,13 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 410 - ((21 * winheight(0) + 11) / 23)
+let s:l = 411 - ((12 * winheight(0) + 11) / 23)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 410
-normal! 0
+keepjumps 411
+normal! 0113|
 wincmd w
-3wincmd w
 exe '1resize ' . ((&lines * 26 + 39) / 78)
 exe '2resize ' . ((&lines * 25 + 39) / 78)
 exe '3resize ' . ((&lines * 23 + 39) / 78)
