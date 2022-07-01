@@ -10,10 +10,10 @@ xmap gx <Plug>NetrwBrowseXVis
 nmap gx <Plug>NetrwBrowseX
 noremap h ;
 noremap l h
+nmap <expr> <F28> XTermPasteBegin("i")
 xnoremap <silent> <Plug>NetrwBrowseXVis :call netrw#BrowseXVis()
 nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(netrw#GX(),netrw#CheckIfRemote(netrw#GX()))
 vmap <expr> <F28> XTermPasteBegin("c")
-nmap <expr> <F28> XTermPasteBegin("i")
 omap <expr> <F28> XTermPasteBegin("i")
 let &cpo=s:cpo_save
 unlet s:cpo_save
@@ -63,9 +63,9 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 19 + 29) / 58)
-exe '2resize ' . ((&lines * 18 + 29) / 58)
-exe '3resize ' . ((&lines * 17 + 29) / 58)
+exe '1resize ' . ((&lines * 26 + 39) / 79)
+exe '2resize ' . ((&lines * 26 + 39) / 79)
+exe '3resize ' . ((&lines * 23 + 39) / 79)
 argglobal
 if bufexists("tra/russian/X\#BRANW.TRA") | buffer tra/russian/X\#BRANW.TRA | else | edit tra/russian/X\#BRANW.TRA | endif
 balt tra/english/x\#branw.tra
@@ -199,11 +199,11 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 310 - ((15 * winheight(0) + 9) / 19)
+let s:l = 318 - ((7 * winheight(0) + 13) / 26)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 310
+keepjumps 318
 normal! 0
 wincmd w
 argglobal
@@ -339,11 +339,11 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 294 - ((0 * winheight(0) + 9) / 18)
+let s:l = 313 - ((2 * winheight(0) + 13) / 26)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 294
+keepjumps 313
 normal! 011|
 wincmd w
 argglobal
@@ -479,16 +479,16 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 472 - ((14 * winheight(0) + 8) / 17)
+let s:l = 486 - ((0 * winheight(0) + 11) / 23)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 472
+keepjumps 486
 normal! 0113|
 wincmd w
-exe '1resize ' . ((&lines * 19 + 29) / 58)
-exe '2resize ' . ((&lines * 18 + 29) / 58)
-exe '3resize ' . ((&lines * 17 + 29) / 58)
+exe '1resize ' . ((&lines * 26 + 39) / 79)
+exe '2resize ' . ((&lines * 26 + 39) / 79)
+exe '3resize ' . ((&lines * 23 + 39) / 79)
 tabnext 1
 badd +1 tra/english/x\#branw.tra
 badd +1 tra/russian/X\#BRANW.TRA
@@ -505,6 +505,7 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
