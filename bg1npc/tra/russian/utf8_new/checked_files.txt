@@ -25,9 +25,11 @@ X#AJANTISNPC_TALKS_PR.TRA
 X#AJINT.TRA
 X#AJROADD_PR.TRA
 X#ALINT.TRA
+X#BRANW.TRA
 
 X#KIVAN.TRA
 
 Klichko86 is checking X#A*
 paladin84 is checking X#B*
 p_zombie is checking X#C*
+
