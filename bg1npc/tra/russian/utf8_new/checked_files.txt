@@ -26,10 +26,12 @@ X#AJINT.TRA
 X#AJROADD_PR.TRA
 X#ALINT.TRA
 X#BRANW.TRA
+X#BRINT.TRA
+X#BRI.TRA
 
 X#KIVAN.TRA
 
 Klichko86 is checking X#A*
-paladin84 is checking X#B*
+paladin84 is checking X#D*
 p_zombie is checking X#C*
 
