@@ -26,6 +26,8 @@ X#AJINT.TRA
 X#AJROADD_PR.TRA
 X#ALINT.TRA
 X#ALORA.TRA
+X#ALORAN.TRA
+X#ALOREPL.TRA
 
 X#BRANW.TRA
 X#BRINT.TRA
@@ -38,7 +40,7 @@ X#DAVI.TRA
 
 X#KIVAN.TRA
 
-Klichko86 is checking X#A*
+Klichko86 is checking X#E*
 paladin84 is checking X#D*
 p_zombie is checking X#C*
 
