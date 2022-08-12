@@ -33,6 +33,14 @@ X#BRANW.TRA
 X#BRINT.TRA
 X#BRI.TRA
 
+X#CHALLENGE.TRA
+X#CHOP.TRA
+X#COINT.TRA
+X#CORAN.TRA
+X#CORAN1.TRA
+X#COSQU.TRA
+X#CRU11.TRA
+
 X#DA0125.TRA
 X#DAV01.TRA
 X#DAV02.TRA
@@ -45,5 +53,6 @@ X#KIVAN.TRA
 
 Klichko86 is checking X#E*
 paladin84 is checking X#D*
-p_zombie is checking X#C*
+p_zombie is checking X#P*
+
 
