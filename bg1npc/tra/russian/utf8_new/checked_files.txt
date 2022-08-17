@@ -48,10 +48,13 @@ X#DAVI.TRA
 
 X#EDINT.TRA
 X#EDWIN.TRA
+X#ELDOTH.TRA
+X#ELDOTHN.TRA
+X#ELINT.TRA
 
 X#KIVAN.TRA
 
-Klichko86 is checking X#E*
+Klichko86 is checking X#F*
 paladin84 is checking X#D*
 p_zombie is checking X#P*
 
