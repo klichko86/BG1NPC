@@ -18,3 +18,9 @@ X#ADDIAL_TMP.TRA
 
 X#AJANTIS.TRA
 @15 Jal khaless lueth jal rivven phuul waela - все эти наземники и все это доверие - глупости.
+
+X#KIVAN.TRA
+
+@331 Llatarala menatira.
+@351 Mani naa lle umien.
+@416 Aiya, tampa! 

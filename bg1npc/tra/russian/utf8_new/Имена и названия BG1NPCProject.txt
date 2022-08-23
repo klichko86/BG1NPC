@@ -127,3 +127,37 @@ X#ALINT.TRA
 Имена:
 @11 Roger the Fence - Скупщик Роджер.
 @21 Mrs. Tangleberry - Миссис Танглберри.
+
+X#KIVAN.TRA
+Названия:
+
+Имена:
+@382 Pasha Uzef - Паша Юзеф.
+@396 Shayleigh - Шейли.
+
+X#EDINT.TRA
+Названия:
+
+Имена:
+@28Turm's - брат Турм.
+
+X#ELDOTH.TRA
+Названия:
+@85 Lightfingers - Ловкие Пальчики.
+
+Имена:
+@182 Lalgrinor of Miramar - Лалгринор из Мирамара.
+
+X#ELINT.TRA
+Названия:
+
+Имена:
+@2 Prilly - Прилли.
+
+X#FAINT.TRA
+Имена:
+@96 Kador the Burner's sickle - Кадор Сжигатель.
+
+Названия:
+@96 Emerald Ray - "Изумрудный Луч".
+@110 Kethalem - Кеталем.

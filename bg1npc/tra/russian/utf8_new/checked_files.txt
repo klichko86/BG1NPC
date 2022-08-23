@@ -52,6 +52,8 @@ X#ELDOTH.TRA
 X#ELDOTHN.TRA
 X#ELINT.TRA
 
+X#FAINT.TRA
+
 X#KIVAN.TRA
 
 Klichko86 is checking X#F*
