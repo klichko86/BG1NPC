@@ -161,3 +161,10 @@ X#FAINT.TRA
 Названия:
 @96 Emerald Ray - "Изумрудный Луч".
 @110 Kethalem - Кеталем.
+
+X#FALDORN.TRA
+Названия:
+@2 Great Watcher - Великий Наблюдатель.
+
+Имена:
+@294 Ysena - Исена.
