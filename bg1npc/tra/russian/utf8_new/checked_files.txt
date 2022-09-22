@@ -55,6 +55,8 @@ X#ELINT.TRA
 X#FAINT.TRA
 X#FALDORN.TRA
 
+X#GAINT.TRA
+
 X#KIVAN.TRA
 
 Klichko86 is checking X#G*, X#H*
