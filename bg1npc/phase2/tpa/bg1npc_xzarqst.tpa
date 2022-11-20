@@ -176,7 +176,7 @@ COPY ~bg1npc/Phase2/cre/x#black.cre~ ~override~
     SAY DYING @343
     SAY SELECT_COMMON1 @344
     SAY SELECT_COMMON2 @345
-END ELSE BEGIN /* Tutu, BGT, EET: BG2 EPRIM soundset */
+  END ELSE BEGIN /* Tutu, BGT, EET: BG2 EPRIM soundset */
     SAY INITIAL_MEETING @327
     SAY UNHAPPY_BREAKING @328
     SAY BATTLE_CRY1 @329
@@ -185,12 +185,15 @@ END ELSE BEGIN /* Tutu, BGT, EET: BG2 EPRIM soundset */
     SAY SELECT_COMMON1 @327
     SAY SELECT_COMMON2 @332
   END
-WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
-WRITE_ASCII SCRIPT_CLASS ~x#druid6~ #8 // class script
+  WRITE_EVALUATED_ASCII 0x248 ~%SOURCE_RES%~ #8 //  override script
+  WRITE_ASCII SCRIPT_CLASS ~x#druid6~ #8 // class script
   WRITE_ASCII SCRIPT_GENERAL ~x#drdsht~ #8 // general script
   WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
   WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
   WRITE_ASCII 0x280 ~blackberry~ #32 //  death variable
+  ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
+  ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
 
 /* Storm */
 COPY ~bg1npc/Phase2/cre/x#storm.cre~ ~override~
@@ -205,7 +208,7 @@ COPY ~bg1npc/Phase2/cre/x#storm.cre~ ~override~
     SAY DYING @343
     SAY SELECT_COMMON1 @344
     SAY SELECT_COMMON2 @345
-END ELSE BEGIN /* Tutu, BGT, EET: BG2 HVILLM soundset */
+  END ELSE BEGIN /* Tutu, BGT, EET: BG2 HVILLM soundset */
     SAY INITIAL_MEETING @334
     SAY UNHAPPY_BREAKING @335
     SAY BATTLE_CRY1 @336
@@ -220,6 +223,9 @@ END ELSE BEGIN /* Tutu, BGT, EET: BG2 HVILLM soundset */
   WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
   WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
   WRITE_ASCII 0x280 ~storm~ #32 //  death variable
+  ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
+  ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
 
 /* Zosya */
 COPY ~bg1npc/Phase2/cre/x#zosya.cre~ ~override~
@@ -240,6 +246,9 @@ COPY ~bg1npc/Phase2/cre/x#zosya.cre~ ~override~
   WRITE_EVALUATED_ASCII 0x268 ~%tutu_scriptw%tasight~ #8 // Default script
   WRITE_EVALUATED_ASCII 0x2CC ~%SOURCE_RES%~ #8 //  dialog
   WRITE_ASCII 0x280 ~zosya~ #32 //  death variable
+  ADD_CRE_ITEM ~LEAT10~ #0 #0 #0 ~IDENTIFIED~ ~armor~ EQUIP
+  ADD_CRE_ITEM ~STAF01~ #0 #0 #0 ~IDENTIFIED~ ~weapon1~ EQUIP TWOHANDED
+  ADD_CRE_ITEM ~RNDTRE01~ #0 #0 #0 ~~ ~inv~
 
 /* Flaming Fist Officer */
 COPY_EXISTING ~%tutu_var%VAI.cre~ ~override/x#xzgu01.cre~
@@ -319,16 +328,37 @@ EXTEND_BOTTOM ~%ValleyoftheTombs_Tomb_BCS%.bcs~ ~bg1npc/Phase2/baf/P#FW5001.BAF~
   EVALUATE_BUFFER
 
 /* Add journal entries for BGEE */
-ADD_JOURNAL EXISTING TITLE (#31313) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~
+<<<<<<<< .../inlined/journal_31313.tph
+>>>>>>>>
+OUTER_SET strref_journal_31313 = eet_200000 + 31313
+APPEND_OUTER - ~.../inlined/journal_31313.tph~ "/* journal entries */
+ADD_JOURNAL EXISTING TITLE (#%strref_journal_31313%) @127 @167 @174 USING ~bg1npc/tra/%LANGUAGE%/x#xzqu.tra~"
 
-/* dialogues */
+/* journal entry DRYAD.dlg state 3 /* ~Dryad of the Cloud Peaks
+While traveling the Cloud Peaks I met a dryad. She asked that I help protect her tree. How could I refuse such a request?~ */
+Needed for Xzar's dryad interference:
+*/
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(27005)~
 END ELSE ACTION_IF GAME_IS ~eet~ THEN BEGIN
     OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(227005)~
 END ELSE BEGIN
-    OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~~
+COPY_EXISTING ~%tutu_var%dryad.dlg~ ~override~
+	LPF ~READ_JOURNAL_STRREF~
+		INT_VAR
+		state         = 3  // state index
+//		stateResponse = 0     // relative response index (e.g. 0 for first response associated with the state, 1 for second response, and so on...)
+		RET
+		strref    // returned string reference, or -1 if not available
+	END
+	SET unsolved_strref_dryad_3 = strref
+  // just for debugging purposes: fetch journal text from strref and output it in console
+  GET_STRREF unsolved_strref_dryad_3 journalText
+  PATCH_PRINT ~Journal entry #%unsolved_strref_dryad_3%: %journalText%~
+BUT_ONLY
+    OUTER_SPRINT ~BGEEXzarEraseJournalEntries~ ~EraseJournalEntry(%unsolved_strref_dryad_3%)~
 END
+/* dialogues */
   COMPILE EVALUATE_BUFFER ~bg1npc/Phase2/dlg/X#XZQU.D~
 
 /* scripts */
