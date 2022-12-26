@@ -28,7 +28,7 @@ BG1NPC_TMP.TRA
 @407 Arel - Арель.
 @432 Valen - Вален.
 @443 Madrina - Мадрина.
-@448 Bhetel - Бетэль.
+@448 Bhetel - Бетель.
 @453 Sveetla - Свеетла.
 @462 Setta - Сетта.
 @533 Elhan - Эльхан.
@@ -38,7 +38,7 @@ BG1NPC_TMP.TRA
 @575 Colin de'Graage - Колин де'Грааж.
 @635 Gael - Гаэль.
 @636 Siene - Сиэне.
-@637 Minuwiel - Минувиель.
+@637 Minuwiel - Минувиэль.
 @638 Diala - Диала.
 @639 White Doe - Белая Лань.
 @784 Belgin - Белгин.
@@ -87,12 +87,6 @@ P#CRNPC.TRA
 
 Имена:
 @124 Matron Baenre - Матрона Бэнр.
-
-XCHALLENGE.TRA
-Названия:
-@30 Matzika - Матзика.
-
-Имена:
 
 P#IMANEL.TRA
 Названия:
@@ -146,12 +140,44 @@ X#ALINT.TRA
 @11 Roger the Fence - Скупщик Роджер.
 @21 Mrs. Tangleberry - Миссис Танглберри.
 
-X#KIVAN.TRA
+XCHALLENGE.TRA
 Названия:
+@30 Matzika - Матзика.
 
 Имена:
-@382 Pasha Uzef - Паша Юзеф.
-@396 Shayleigh - Шейли.
+@91 *Lady* Fayatel's - Фаятель.
+@103 Jonel - Джонел.
+@116 Coran Sullussaer - Коран Суллуссаэр.
+@178 Gond the Wonderbringer - Гонд Вондербрингер(бог ремесла).
+@178 Lantanez - Лантанез.
+
+X#COINT.TRA
+Названия:
+@57 Belgarden - Белгарден.
+
+Имена:
+@24 Ameniela - Амениэла.
+@24 Enivien Maervik - Энивьен Маэрвик.
+@55 Inga Highwing - Инга Высокое Крыло.
+@59 Ogneda - Огнеда.
+@69 Alaundalion - Алаундалион.
+@164 Berayat - Бераят.
+
+X#CORAN.TRA
+Название:
+@353 Dragon Berserker Lodge - Ложа Берсерков Ледяного Дракона.
+
+X#COSQU.TRA
+Название:
+
+Имена:
+@15 Amelia - Амелия.
+@59 Rashel the Sunray - Рашель Солнечный Луч.
+
+
+Имена:
+
+
 
 X#EDINT.TRA
 Названия:
@@ -191,6 +217,13 @@ X#ICT3.TRA
 Названия:
 @404 Gevalenties Mordabintius Celebrantus - Джевалентис Мордабинтиус Селебрантус.
 @483 The Happiness Boys - Веселые Парни.
+
+X#KIVAN.TRA
+Названия:
+
+Имена:
+@382 Pasha Uzef - Паша Юзеф.
+@396 Shayleigh - Шейли.
 
 Использовавшиеся ранее в моде Киван и Дехериана
 
