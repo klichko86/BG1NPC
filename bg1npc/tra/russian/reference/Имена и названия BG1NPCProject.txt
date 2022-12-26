@@ -7,8 +7,8 @@ BG1NPC_TMP.TRA
 @11 Lord Foreshadow's - Лорд Предзнаменований.
 @17 Tarnesh - Тарнеш (Прож).
 @30 Caravan Bandit - Налетчик на караваны.
-@36 Zizi the Lovebundle - Зизи Любвеобильная.
-@81 Jopha - Иофа.
+@36 Zizi the Lovebundle - Зизи Ловеласка.
+@81 Jopha - Джофа.
 @82 Dora - Дора.
 @83 David Jansen - Дэвид Янсен.
 @100 Uncle Gerhardt - Дядя Герхард (Сильвер).
@@ -16,15 +16,21 @@ BG1NPC_TMP.TRA
 @136 David - Дэвид.
 @171 Saemon Schama - Саймон Шама.
 @171 Myr'Cutio - Мир'Кутио.
-@239 Rashel - Рашэль.
+@239 Rashel - Рашель.
 @251 Imanel Silversword - Иманель Сильверсворд.
 @305 Willy - Вилли.
 @340 Zosya - Зося.
 @347 Galteran - Гальтеран
+@363 Andarthe - Андарт.
 @385 Arkushule - Аркушуль.
 @386 Brielbara - Бриельбара.
 @391 Twelve Months - Двеннадцать Месяцев.
-@407 Arel - Арэль.
+@407 Arel - Арель.
+@432 Valen - Вален.
+@443 Madrina - Мадрина.
+@448 Bhetel - Бетель.
+@453 Sveetla - Свеетла.
+@462 Setta - Сетта.
 @533 Elhan - Эльхан.
 @547 Cautz'qu'ati'kan - Кауц'ку'ати'кан.
 @553 Cautz'qu'ati'kan's hubby - Муж Кауц'ку'ати'кан.
@@ -35,6 +41,12 @@ BG1NPC_TMP.TRA
 @637 Minuwiel - Минувиэль.
 @638 Diala - Диала.
 @639 White Doe - Белая Лань.
+@784 Belgin - Белгин.
+@785 Karris - Каррис.
+@786 Alvo - Алво.
+@787 Leti - Лэти. 
+@788 Zed - Зед.
+@789 Mati - Мати.
 
 P#BRLT.TRA
 Названия:
@@ -128,12 +140,44 @@ X#ALINT.TRA
 @11 Roger the Fence - Скупщик Роджер.
 @21 Mrs. Tangleberry - Миссис Танглберри.
 
-X#KIVAN.TRA
+XCHALLENGE.TRA
 Названия:
+@30 Matzika - Матзика.
 
 Имена:
-@382 Pasha Uzef - Паша Юзеф.
-@396 Shayleigh - Шейли.
+@91 *Lady* Fayatel's - Фаятель.
+@103 Jonel - Джонел.
+@116 Coran Sullussaer - Коран Суллуссаэр.
+@178 Gond the Wonderbringer - Гонд Вондербрингер(бог ремесла).
+@178 Lantanez - Лантанез.
+
+X#COINT.TRA
+Названия:
+@57 Belgarden - Белгарден.
+
+Имена:
+@24 Ameniela - Амениэла.
+@24 Enivien Maervik - Энивьен Маэрвик.
+@55 Inga Highwing - Инга Высокое Крыло.
+@59 Ogneda - Огнеда.
+@69 Alaundalion - Алаундалион.
+@164 Berayat - Бераят.
+
+X#CORAN.TRA
+Название:
+@353 Dragon Berserker Lodge - Ложа Берсерков Ледяного Дракона.
+
+X#COSQU.TRA
+Название:
+
+Имена:
+@15 Amelia - Амелия.
+@59 Rashel the Sunray - Рашель Солнечный Луч.
+
+
+Имена:
+
+
 
 X#EDINT.TRA
 Названия:
@@ -168,6 +212,18 @@ X#FALDORN.TRA
 
 Имена:
 @294 Ysena - Исена.
+
+X#ICT3.TRA
+Названия:
+@404 Gevalenties Mordabintius Celebrantus - Джевалентис Мордабинтиус Селебрантус.
+@483 The Happiness Boys - Веселые Парни.
+
+X#KIVAN.TRA
+Названия:
+
+Имена:
+@382 Pasha Uzef - Паша Юзеф.
+@396 Shayleigh - Шейли.
 
 Использовавшиеся ранее в моде Киван и Дехериана
 
