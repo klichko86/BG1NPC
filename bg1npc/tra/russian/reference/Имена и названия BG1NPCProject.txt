@@ -217,6 +217,9 @@ X#ICT3.TRA
 @404 Gevalenties Mordabintius Celebrantus - Джевалентис Мордабинтиус Селебрантус.
 @483 The Happiness Boys - Веселые Парни.
 
+Имена:
+@562 Berthe the Unmarried - Берта Холостячка.
+
 X#KIVAN.TRA
 Названия:
 
