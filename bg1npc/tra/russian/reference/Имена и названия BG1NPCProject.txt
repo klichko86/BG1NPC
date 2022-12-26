@@ -142,7 +142,6 @@ X#ALINT.TRA
 
 XCHALLENGE.TRA
 Названия:
-@30 Matzika - Матзика.
 
 Имена:
 @91 *Lady* Fayatel's - Фаятель.
