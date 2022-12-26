@@ -718,7 +718,7 @@ THAC0: +1 бонус
 @445  = ~[FEMALE TOWNSFOLK 5]~ [%tutu_var%FTOWN05]
 @446  = ~[FEMALE TOWNSFOLK 6]~ [%tutu_var%FTOWN06]
 @447  = ~[FEMALE GREETING 1] Да?~ [%tutu_var%GENFG01]
-@448  = ~Бетэль~
+@448  = ~Бетель~
 @449  = ~[FEMALE THREAT 6] Мне плевать на твою жизнь.~ [%tutu_var%GENFT06]
 @450  = ~[ITHMEERA 3]~ [%tutu_var%ITHMR03]
 @451  = ~[ITHMEERA 4]~ [%tutu_var%ITHMR04]
