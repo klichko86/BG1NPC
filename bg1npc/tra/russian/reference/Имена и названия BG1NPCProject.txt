@@ -139,6 +139,7 @@ X#ALINT.TRA
 Имена:
 @11 Roger the Fence - Скупщик Роджер.
 @21 Mrs. Tangleberry - Миссис Танглберри.
+@111 Wendal - Вендал.
 
 XCHALLENGE.TRA
 Названия:
