@@ -223,10 +223,8 @@ X#ICT3.TRA
 
 IMINT.TRA
 Названия:
-@7 Golden Way - Золотой Путь.
 @107 Little Imoen - малышка Имоен.
 @107 Little Immy - малышка Имми.
-@182 Hades - пустоши ада, если ругательство.
 
 Имена:
 @48 Imoen the Magnificent - Имоен Великолепная.
@@ -235,9 +233,9 @@ IMINT.TRA
 X#IMOEN.TRA
 Названия:
 @338 Skullport - Скуллпорт.
-@384 Imoen the Innocent - Имоен сама Невинность.
+@384 Imoen the Innocent - Имоен Невинная.
 @543 Brief Compendium of Gnomish Physiology - Краткий Справочник Физиологии Гномов.
-@546 High Haspur - Высокий Хаспур.
+@546 High Haspur - Верхний Хаспур.
 
 Имена:
 @31 Imoen the Quick - Имоен Проворная.
