@@ -221,6 +221,29 @@ X#ICT3.TRA
 Имена:
 @562 Berthe the Unmarried - Берта Холостячка.
 
+IMINT.TRA
+Названия:
+@107 Little Imoen - малышка Имоен.
+@107 Little Immy - малышка Имми.
+
+Имена:
+@48 Imoen the Magnificent - Имоен Великолепная.
+
+
+X#IMOEN.TRA
+Названия:
+@338 Skullport - Скаллпорт.
+@384 Imoen the Innocent - Имоен Невинная.
+@543 Brief Compendium of Gnomish Physiology - Краткий Справочник Физиологии Гномов.
+@546 High Haspur - Верхний Хаспур.
+
+Имена:
+@31 Imoen the Quick - Имоен Проворная.
+@291 Mr. Cuddles - мистер Каддлс.
+@543 Kenudrum Galador - Кенудрум Галадор.
+@545 Peduritan Morninglight - Педуритан Монинлайт.
+@583 Sage Bunter - Бантер Мудрый.
+
 X#KIVAN.TRA
 Названия:
 
