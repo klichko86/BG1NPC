@@ -71,7 +71,7 @@ P#CORLT.TRA
 Названия:
 Fireheart - искорка (ласкательное Корана в адрес ГГ).
 @80 Elasias - Элазиас (один из месяцев).
-@139 Lady of Luck - Госпожа Удача.
+@139 Lady of Luck - Леди Удача.
 @181 Year of the Great Harvests - Год Великих Урожаев.
 @183 Great Glacier - Великий Ледник.
 @432 Keltormir - Келтормир.
