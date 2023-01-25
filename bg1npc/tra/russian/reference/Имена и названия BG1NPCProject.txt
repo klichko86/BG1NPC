@@ -76,9 +76,9 @@ Fireheart - искорка (ласкательное Корана в адрес 
 @183 Great Glacier - Великий Ледник.
 @432 Keltormir - Келтормир.
 @432 Erlkazar - Эрлказар.
-@445 Wyrmwood - Лес Вирма.
+@445 Wyrmwood - Вирмов лес.
 @459 Year of the Immoral Imp - Год Безнравственного Беса.
-@476 Year of the Wyrm - Год Вирма.
+@476 Year of the Wyrm - Год Змия.
 @577 Taulmaril - Таурмарил.
 @577 Whisperer - Шептун.
 @761 Waterdevian - Вотердевиан.
