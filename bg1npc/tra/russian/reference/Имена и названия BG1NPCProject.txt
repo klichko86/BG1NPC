@@ -69,16 +69,33 @@ P#CENTEO.TRA
 
 P#CORLT.TRA
 Названия:
+Fireheart - искорка (ласкательное Корана в адрес ГГ).
 @80 Elasias - Элазиас (один из месяцев).
-@139 Lady of Luck - Госпожа Удача. 
+@139 Lady of Luck - Госпожа Удача.
+@181 Year of the Great Harvests - Год Великих Урожаев.
 @183 Great Glacier - Великий Ледник.
+@432 Keltormir - Келтормир.
+@432 Erlkazar - Эрлказар.
 @445 Wyrmwood - Лес Вирма.
 @459 Year of the Immoral Imp - Год Безнравственного Беса.
+@476 Year of the Wyrm - Год Вирма.
+@577 Taulmaril - Таурмарил.
+@577 Whisperer - Шептун.
+@761 Waterdevian - Вотердевиан.
+@766 Sea of Moving Ice - Море Движущихся Льдов.
+
 Имена:
+@436 Tethir the Dragonslayer - Тетир Истребитель Драконов.
+@476 Xuntlarmerphyn - Ксунтлармерфин.
 @487 Errilam - Эррилам.
 @491 Alemander - Эйлмандер.
+@556 Cattie-Brie Battlehammer - Кэтти-Бри Боевой Молот.
 @557 Twinkle - Мерцающий.
+@826 Coran Sullussaer - Коран Суллуссаэр.
+@1101 King Azuon - Король Азуон.
+@1107 Kymer - Кимер.
 @1127 Shade King - Король Теней.
+@1239 Helg - Хельг.
 @1344 Cloakwood Creek - ручей Клоаквуда.
 @1512 Golden Elves - Золотые эльфы.
 
