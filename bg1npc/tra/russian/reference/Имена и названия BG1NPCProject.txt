@@ -102,6 +102,7 @@ P#CRNPC.TRA
 Названия:
 
 Имена:
+@124 Malice Do'Urden - Малиса До'Урден.
 @124 Matron Baenre - Матрона Бэнр.
 
 P#IMANEL.TRA
