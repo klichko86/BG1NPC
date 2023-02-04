@@ -261,6 +261,14 @@ X#IMOEN.TRA
 @545 Peduritan Morninglight - Педуритан Монинлайт.
 @583 Sage Bunter - Бантер Мудрый.
 
+X#JAHEIRA.TRA
+Названия:
+
+
+Имена:
+@224 Vendargolth - Вендарголт.
+
+
 X#KIVAN.TRA
 Названия:
 
