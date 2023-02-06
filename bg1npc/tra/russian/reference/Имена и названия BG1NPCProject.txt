@@ -22,6 +22,8 @@ BG1NPC_TMP.TRA
 @340 Zosya - Зося.
 @347 Galteran - Гальтеран
 @363 Andarthe - Андарт.
+@364 Beador - Беадор.
+@365 Maretha - Марета.
 @385 Arkushule - Аркушуль.
 @386 Brielbara - Бриельбара.
 @391 Twelve Months - Двеннадцать Месяцев.
@@ -264,9 +266,16 @@ X#IMOEN.TRA
 X#JAHEIRA.TRA
 Названия:
 
-
 Имена:
 @224 Vendargolth - Вендарголт.
+
+
+X#JAQU.TRA
+Названия:
+@18 Shadowclave - Теневое Посвящение.
+@163 Treefort - Древофорт.
+@164 Shadow Circle - Теневой Круг.
+Имена:
 
 
 X#KIVAN.TRA
