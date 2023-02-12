@@ -277,6 +277,12 @@ X#JAQU.TRA
 @164 Shadow Circle - Теневой Круг.
 Имена:
 
+XKAINT.TRA
+Названия:
+@3 Rivenbridge - Расколотый Мост.
+
+Имена:
+
 
 X#KIVAN.TRA
 Названия:
