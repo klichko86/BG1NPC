@@ -283,6 +283,12 @@ XKAINT.TRA
 
 Имена:
 
+X#KIINT.TRA
+Названия:
+
+
+Имена:
+@85 Red Gren - Красный Грен.
 
 X#KIVAN.TRA
 Названия:
@@ -290,6 +296,38 @@ X#KIVAN.TRA
 Имена:
 @382 Pasha Uzef - Паша Юзеф.
 @396 Shayleigh - Шейли.
+
+X#LP1REP.TRA
+Названия:
+@30 Field Guide to Ichor - Полевой Справочник по Ихору.
+
+
+Имена:
+@42 Imoen the Great - Имоен Великая.
+@44 Imoen the Terrible - Имоен Ужасная.
+@60 Quayle the Brilliant - Квейл Гениальный.
+
+X#MIINT.TRA
+Названия:
+@152 Lodge - Ложа Берсерковж.
+
+
+Имена:
+@153 Uldon the Unwashed - Алдон Немытый.
+
+X#MINSC.TRA
+Названия:
+@39 Peanut Castle - Ореховый Замок.
+@41 Account of the Death of Iron Lord Yegoriy Yasnoi, his Four Hundred Fifty best and Thirty Hathran - Отчёт о Смерти Железного Лорда Егория Ясного, его Четырехсот Пятидесяти Лучших и Тридцати Хатран.
+@97 Vremyonni - Времионни.
+@280 Easterlings - Истерлинги.
+@299 Shattered Castle - Разрушенный Замок.
+
+Имена:
+@28 Princess Sunflower Seed - Принцесса Подсолнуховая Семечка.
+@163 Fyrra Vsevolod - Фирра Всеволод.
+@165 Tarchion - Тарчион.
+
 
 Использовавшиеся ранее в моде Киван и Дехериана
 
