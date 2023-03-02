@@ -24,3 +24,8 @@ X#KIVAN.TRA
 @331 Llatarala menatira.
 @351 Mani naa lle umien.
 @416 Aiya, tampa! 
+
+X#SKIE.TRA
+@428  elg'caress
+@437  Waela rivvil
+@439  jaluk
