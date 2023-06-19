@@ -344,7 +344,7 @@ X#XAN.TRA
 @182 The Walker of the Mists - Туманный Ходок.
 @188 Tomb Hills - Могильные Холмы.
 @188 Evereskan Mountains - Эвересканские горы.
-@201 Greyhome - Дом Серых Плащей.
+@201 Greyhome - Дом Серых Плашей.
 @262 Sentinel trees - деревья-стражи.
 
 Имена:
@@ -357,7 +357,7 @@ X#XQXAN.TRA
 
 Имена:
 @1 Skodd - Шкодд.
-
+@25 Minuwiel - Минувиэль.
 
 
 Использовавшиеся ранее в моде Киван и Дехериана
